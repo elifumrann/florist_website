@@ -1,0 +1,399 @@
+
+body { 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: margin-left .3s;
+  background-color: #ffffff;
+  overflow-x:hidden; 
+}
+
+.logo {
+  position: fixed;
+  top: 0; 
+  left: 650px; 
+  z-index: 1000; 
+  background-color: white;
+  background-image: url('images/logom.png');
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+  box-shadow: 0 9px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1); 
+}
+
+.menu-btn {
+  position: fixed; 
+  top: 69px; 
+  left: -10px; 
+  font-size: 30px;
+  cursor: pointer;
+  padding: 12px 20px;
+  color: rgb(252, 246, 246);
+  border: none;
+  z-index: 1000; 
+}
+
+.menu-btn:hover {
+  color: #000000;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: -5px;
+  background-image: url("images/tasarim8.png");
+  overflow-y: auto; 
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar .close-btn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 8px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background-color: #0b0a0a5f;
+}
+
+.menu1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("images/tasarim9.png");
+  background-size: cover;
+  background-position: top;
+  padding: 10px 20px;
+  z-index: 999;
+}
+
+.menu1 ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.menu1 li {
+  font-size: 20px;
+  color: rgb(244, 244, 244);
+  margin: 5px 50px;
+}
+.menu1 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.menu1 a:hover {
+  color: #000000;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 5px;
+  border-radius: 25px;
+  margin-left: 230px;
+
+}
+
+.butonn {
+  border: none;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 20px;
+  outline: none;
+
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+
+}
+
+
+.butonlar {
+    margin: 5px 0;
+    margin-top: 150px;
+
+}
+
+.buton {
+    position: relative;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 95px 10px;
+    margin: 15px;
+    margin-left: 60px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    width: 200px; 
+    height: 60px; 
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.buton.papatya {
+    background-image: url("images/papatya.jpg");
+}
+
+.buton.gül {
+    background-image: url("images/gul.jpg");
+}
+
+.buton.menekşe {
+    background-image: url("images/Menekse.jpg");
+}
+
+.buton.karanfil {
+    background-image: url("images/Karanfil.jpeg");
+}
+
+.buton.leylak {
+    background-image: url("images/Leylak.jpeg");
+}
+
+.buton.lale {
+    background-image: url("images/Lale.jpg");
+}
+
+.buton.kasımpatı {
+    background-image: url("images/Kasımpatı.jpeg");
+}
+
+.buton.kokina {
+  background-image: url("images/Kokina.jpg");
+}
+
+.buton.nergis {
+    background-image: url("images/nergis.png");
+}
+.buton.şakayık {
+  background-image: url("images/sakayık.png");
+}.buton.karahindiba {
+  background-image: url("images/karahindiba.png");
+}
+.buton.orkide{
+  background-image: url("images/orkide.png");
+}
+.buton.begonya{
+  background-image: url("images/begonya.png");
+}
+
+.buton.lavanta{
+  background-image: url("images/lavanta.png");
+}.buton.akasya{
+  background-image: url("images/akasya.png");
+}
+.buton-text {
+    background-color: rgba(255, 255, 255, 0.953); 
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.buton:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.buton-info {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(242, 242, 242); 
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 180px;
+    z-index: 1;
+}
+
+.buton:hover .buton-info {
+    display: block;
+}
+
+
+
+
+
+
+.message {
+  font-family: Arial, sans-serif;
+  font-size: 0px;
+  color: #ececec;
+  align-items: center;
+background-image: url("images/tasarim7.png");
+ width:2000px;
+ height: 100px;
+  margin-top: 8%;
+}
+
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.footer-titles {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.footer-titles h3 {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-section {
+  flex: 1;
+  text-align: center;
+}
+
+.menu-section a {
+  display: block;
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.menu-section a:hover {
+  color: #000;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer-section {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menu a {
+
+  display: block;
+  color: #666;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .footer-section {
+      flex-basis: 45%;
+      margin-bottom: 20px;
+  }
+
+  .social-media {
+      flex-basis: 100%;
+      justify-content: center;
+  }
+}
+
+
