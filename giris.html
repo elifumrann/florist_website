@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="giris.css">
+</head>
+<body>
+  <div class="logo-container">
+    <div class="logo"></div>
+  </div>
+  
+  <span class="menu-btn" onclick="toggleMenu()">☰ Menü</span>
+
+  <div id="menu" class="sidebar">
+    <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+    <ul>
+      <li><a href="#ozelgunler">Özel Günler</a></li>
+      <li><a href="cicektur.html">Çiçek Türleri</a></li>
+      <li><a href="#kisiyepozel">Kişiye Özel</a></li>
+      <li><a href="#saksicicekleri">Saksı Çiçekleri</a></li>
+      <li><a href="#yenilebilircicek">Yenilebilir Çiçek</a></li>
+      <li><a href="#cicekhediye">Çiçek & Hediye</a></li>
+      <li><a href="#celenkler">Çelenkler</a></li>
+      <li><a href="#yapaycicekler">Yapay Çiçekler</a></li>
+      <li><a href="#kutudaguller">Kutuda Güller</a></li>
+      <li><a href="#sepetim">Sepetim</a></li>
+    </ul>
+  </div>
+  
+  <script src="asflores.js"></script>
+
+  <div class="menu1">
+    <ul>      
+<li></li>
+      <li><a href="cicektur.html"><b>Çiçek Türleri</b></a></li>
+      <li><a href="kisiyeozel.html"><b>Kişiye Özel</b></a></li>
+      
+      
+
+      <li>
+        <div class="search-container">
+          <input type="text" class="butonn" placeholder="Arama Yap">
+          <button class="search-btn" id="search-btn">🔍</button>
+        </div>
+      </li>
+      
+      <li><a href="giris.html"><b>Üye Girişi/Kayıt</b></a></li>
+      <li><a href="sepetim.html"><b>Sepetim</b></a></li>
+    </ul>
+  </div>
+
+    
+    
+    
+    <div class="giriss">
+        <form action="">
+            <h1>Giriş Yap</h1>
+            <div class="input-box">
+                e-posta <input type="email" >
+                <i class='bx bxs-user'></i>   
+            </div>
+            <div class="input-box">
+             Şifre <input type="password" >
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forget">
+                <a href="sifre.html">Şifremi Unuttum</a>  
+            </div>
+            <button type="submit" class="btn">Giriş Yap</button>
+            <div class="register-link">
+                <p>Üyeliğiniz yok mu? <a href="uye.html"> Üye Ol</a></p>  
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
