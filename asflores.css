@@ -359,7 +359,7 @@ background-color: #33333354;
 }
 
 
-.message {
+.footer_ust_image {
   font-family: Arial, sans-serif;
   font-size: 0px;
   color: #ececec;
@@ -372,6 +372,8 @@ background-image: url("images/tasarim7.png");
 
 
 .footer-container {
+  display: flex;
+  justify-content: space-between;
   width: 90%;
   max-width: 1200px;
   margin: auto;
@@ -379,8 +381,8 @@ background-image: url("images/tasarim7.png");
   background-color: #f8f8f8;
   border-radius: 10px;
   text-align: center;
-
 }
+
 
 .footer-titles {
   display: flex;
@@ -416,17 +418,6 @@ background-image: url("images/tasarim7.png");
 
 .menu-section a:hover {
   color: #000;
-}
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-  background-color: #f8f8f8;
-  border-radius: 10px;
-  text-align: center;
 }
 
 .footer-section {
